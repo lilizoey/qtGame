@@ -8,7 +8,7 @@ when defined(windows):
 
 when defined(linux):
     proc clearScreen() =
-        discard execShellCmd("cls")
+        discard execShellCmd("clear")
 
 var
     board = Map.newMap(MAP_CONST)
